@@ -1,0 +1,398 @@
+{
+    "type": "notebook",
+    "id": "d52a12cdbcd4f82d",
+    "slug": "how-to-build-a-naive-wikification-tool",
+    "trashed": false,
+    "description": "",
+    "likes": 11,
+    "publish_level": "public",
+    "forks": 2,
+    "fork_of": null,
+    "has_importers": false,
+    "update_time": "2021-10-25T17:19:20.888Z",
+    "first_public_version": null,
+    "paused_version": null,
+    "publish_time": "2021-10-25T17:19:20.888Z",
+    "publish_version": 641,
+    "latest_version": 641,
+    "thumbnail": "d226c013fb1e7a635d53c5a0f87eead498c6d2033500b079964d589b2f2d1fd4",
+    "default_thumbnail": "d226c013fb1e7a635d53c5a0f87eead498c6d2033500b079964d589b2f2d1fd4",
+    "roles": [],
+    "sharing": null,
+    "owner": {
+        "id": "c6b145bf0197f1e4",
+        "github_login": null,
+        "avatar_url": "https://avatars.observableusercontent.com/avatar/bf53408604fdcc88d0d3dec6ca4b4b6583ed36cd57fa9107cfea284a28d0fd52",
+        "login": "winkjs",
+        "name": "WinkJS",
+        "bio": "Developer friendly Natural Language Processing ✨",
+        "home_url": "https://github.com/winkjs/wink-nlp",
+        "type": "individual",
+        "tier": "pro",
+        "following_count": 0,
+        "followers_count": 21,
+        "following": false
+    },
+    "creator": {
+        "id": "c6b145bf0197f1e4",
+        "github_login": null,
+        "avatar_url": "https://avatars.observableusercontent.com/avatar/bf53408604fdcc88d0d3dec6ca4b4b6583ed36cd57fa9107cfea284a28d0fd52",
+        "login": "winkjs",
+        "name": "WinkJS",
+        "bio": "Developer friendly Natural Language Processing ✨",
+        "home_url": "https://github.com/winkjs/wink-nlp",
+        "tier": "pro",
+        "following_count": 0,
+        "followers_count": 21,
+        "following": false
+    },
+    "authors": [
+        {
+            "id": "c6b145bf0197f1e4",
+            "avatar_url": "https://avatars.observableusercontent.com/avatar/bf53408604fdcc88d0d3dec6ca4b4b6583ed36cd57fa9107cfea284a28d0fd52",
+            "name": "WinkJS",
+            "login": "winkjs",
+            "bio": "Developer friendly Natural Language Processing ✨",
+            "home_url": "https://github.com/winkjs/wink-nlp",
+            "github_login": null,
+            "tier": "pro",
+            "approved": true,
+            "description": "",
+            "following_count": 0,
+            "followers_count": 21,
+            "following": false
+        }
+    ],
+    "collections": [
+        {
+            "id": "b1cd242ccf4e30b3",
+            "type": "public",
+            "slug": "winknlp-recipes",
+            "title": "WinkNLP Recipes",
+            "description": "How to perform common NLP tasks using winkNLP.",
+            "update_time": "2021-06-24T10:09:14.672Z",
+            "pinned": false,
+            "ordered": true,
+            "custom_thumbnail": null,
+            "default_thumbnail": "79c2a4c8d9f5bb82f9e378cf5b75471d3d63eabd18c6a046efdc786b9daa0aa7",
+            "thumbnail": "79c2a4c8d9f5bb82f9e378cf5b75471d3d63eabd18c6a046efdc786b9daa0aa7",
+            "listing_count": 12,
+            "parent_collection_count": 0,
+            "owner": {
+                "id": "c6b145bf0197f1e4",
+                "github_login": null,
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/bf53408604fdcc88d0d3dec6ca4b4b6583ed36cd57fa9107cfea284a28d0fd52",
+                "login": "winkjs",
+                "name": "WinkJS",
+                "bio": "Developer friendly Natural Language Processing ✨",
+                "home_url": "https://github.com/winkjs/wink-nlp",
+                "type": "individual",
+                "tier": "pro",
+                "following_count": 0,
+                "followers_count": 21,
+                "following": false
+            }
+        }
+    ],
+    "files": [],
+    "comments": [
+        {
+            "id": "45a0a7da498a2da8",
+            "content": "Is there any model for non English language such as French ?",
+            "node_id": 195,
+            "create_time": "2022-04-04T14:43:44.168Z",
+            "update_time": null,
+            "resolved": true,
+            "user": {
+                "id": "c1c217aebd614b45",
+                "github_login": null,
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/2e849389f24e4a039178c801e4df9065e03c23e4077b0ff6bfc8e2763dd06bf9",
+                "login": "pac02",
+                "name": "PAC",
+                "bio": "I explore Wikidata and Wikipedia using Observable notebooks.",
+                "home_url": "https://wikidata.org/wiki/User:PAC2",
+                "tier": "public",
+                "following_count": 52,
+                "followers_count": 18,
+                "following": false
+            }
+        },
+        {
+            "id": "aabf061cf92ce71a",
+            "content": "Not yet, but we have initiated work to create models for different languages.",
+            "node_id": 195,
+            "create_time": "2022-04-04T17:57:15.663Z",
+            "update_time": null,
+            "resolved": true,
+            "user": {
+                "id": "c6b145bf0197f1e4",
+                "github_login": null,
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/bf53408604fdcc88d0d3dec6ca4b4b6583ed36cd57fa9107cfea284a28d0fd52",
+                "login": "winkjs",
+                "name": "WinkJS",
+                "bio": "Developer friendly Natural Language Processing ✨",
+                "home_url": "https://github.com/winkjs/wink-nlp",
+                "tier": "pro",
+                "following_count": 0,
+                "followers_count": 21,
+                "following": false
+            }
+        },
+        {
+            "id": "b6a771f3193ccdb0",
+            "content": "I'd be very happy to have an example of a non naive approach. It would be very useful to me. Also I would also be curious to know if you're planning to have a French model.",
+            "node_id": 601,
+            "create_time": "2022-08-08T18:29:00.841Z",
+            "update_time": null,
+            "resolved": true,
+            "user": {
+                "id": "c1c217aebd614b45",
+                "github_login": null,
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/2e849389f24e4a039178c801e4df9065e03c23e4077b0ff6bfc8e2763dd06bf9",
+                "login": "pac02",
+                "name": "PAC",
+                "bio": "I explore Wikidata and Wikipedia using Observable notebooks.",
+                "home_url": "https://wikidata.org/wiki/User:PAC2",
+                "tier": "public",
+                "following_count": 52,
+                "followers_count": 18,
+                "following": false
+            }
+        },
+        {
+            "id": "7c095376db7163ee",
+            "content": "This will require substantial work — something that is already highlighted above. While we can not undertake this task right now but we may surely collaborate on the same.",
+            "node_id": 601,
+            "create_time": "2022-08-10T05:31:57.290Z",
+            "update_time": null,
+            "resolved": true,
+            "user": {
+                "id": "c6b145bf0197f1e4",
+                "github_login": null,
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/bf53408604fdcc88d0d3dec6ca4b4b6583ed36cd57fa9107cfea284a28d0fd52",
+                "login": "winkjs",
+                "name": "WinkJS",
+                "bio": "Developer friendly Natural Language Processing ✨",
+                "home_url": "https://github.com/winkjs/wink-nlp",
+                "tier": "pro",
+                "following_count": 0,
+                "followers_count": 21,
+                "following": false
+            }
+        },
+        {
+            "id": "6e35c8d0025c3e22",
+            "content": "We can also possibly collaborate to build a french language model for wink-nlp.",
+            "node_id": 601,
+            "create_time": "2022-08-10T05:37:51.996Z",
+            "update_time": null,
+            "resolved": true,
+            "user": {
+                "id": "c6b145bf0197f1e4",
+                "github_login": null,
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/bf53408604fdcc88d0d3dec6ca4b4b6583ed36cd57fa9107cfea284a28d0fd52",
+                "login": "winkjs",
+                "name": "WinkJS",
+                "bio": "Developer friendly Natural Language Processing ✨",
+                "home_url": "https://github.com/winkjs/wink-nlp",
+                "tier": "pro",
+                "following_count": 0,
+                "followers_count": 21,
+                "following": false
+            }
+        },
+        {
+            "id": "11efc75d5792f99e",
+            "content": "Thanks for your answer",
+            "node_id": 601,
+            "create_time": "2022-08-10T07:25:31.350Z",
+            "update_time": null,
+            "resolved": false,
+            "user": {
+                "id": "c1c217aebd614b45",
+                "github_login": null,
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/2e849389f24e4a039178c801e4df9065e03c23e4077b0ff6bfc8e2763dd06bf9",
+                "login": "pac02",
+                "name": "PAC",
+                "bio": "I explore Wikidata and Wikipedia using Observable notebooks.",
+                "home_url": "https://wikidata.org/wiki/User:PAC2",
+                "tier": "public",
+                "following_count": 52,
+                "followers_count": 18,
+                "following": false
+            }
+        }
+    ],
+    "commenting_lock": null,
+    "suggestion_from": null,
+    "suggestions_to": [],
+    "version": 641,
+    "title": "How to build a naive wikification tool?",
+    "license": null,
+    "copyright": "",
+    "nodes": [
+        {
+            "id": 0,
+            "value": "# How to build a naive wikification tool?",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 460,
+            "value": "Wikification or **entity linking** is a process of linking entities such as famous persons, locations or objects to the relevant Wikipedia pages. This tool identifies potential entities via the [custom entities](https://winkjs.org/wink-nlp/custom-entities.html) feature of [winkNLP](https://github.com/winkjs/wink-nlp). It searches the potential entries in Wikipedia using its [search API](https://www.mediawiki.org/wiki/API:Search). Afterwards, it scans each set of result for the best match. If a match is found, tool links the entity to the matched Wikipedia page using the [markup()](https://winkjs.org/wink-nlp/visualizing-markup.html) method of  [winkNLP](https://github.com/winkjs/wink-nlp). \n\nWikipedia searches are online. There is an added delay after each search to respect rate limits. Thus the code may take several seconds to complete the wikification process. Total time taken will depend on the number of searches required i.e. number of potential entities detected.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 505,
+            "value": "### Example Text",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 511,
+            "value": "text = `Apollo 11 was the spaceflight that first landed humans on the Moon. \nCommander Neil Armstrong and lunar module pilot Buzz Aldrin formed the \nAmerican crew that landed the Apollo Lunar Module Eagle. The Lunar Module \nor LM-5 Eagle was manufactured by Grumman Corporation, which later merged\nwith Northrop Corporation in 1995 and became Northrop Grumman Corporation.`",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 517,
+            "value": "### Wikified Text",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 228,
+            "value": "{\n  const wikiBaseUrl = 'https://en.wikipedia.org/wiki?';\n  const doc = nlp.readDoc( text );\n  const potentialEntities = doc.customEntities().out();\n  const results = (await searchAllTerms( potentialEntities )); // return results;\n  doc.customEntities().each( (e, i) => {\n    const match = findBestMatch( results[ i ], e );\n    if ( match !== null ) \n      e.markup(`<a href=\"${wikiBaseUrl}title=${match.title}\" title=\"${match.title}\" class=\"demo\"><b>`, '</b></a>');\n  } );\n  return html `<div class=\"container\">${doc.out(its.markedUpText)}</div>`;\n}",
+            "pinned": true,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 601,
+            "value": "This is a very simple implementation in ~30 source code lines. A full scale implementation will need to use advance techniques such as co-reference resolution, disambiguation and ranking the search results.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 468,
+            "value": "---",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 189,
+            "value": "### Setup",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 194,
+            "value": "winkNLP = (await import('https://cdn.skypack.dev/wink-nlp')).default;",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 195,
+            "value": "model = (await import('https://cdn.skypack.dev/wink-eng-lite-web-model')).default;",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 199,
+            "value": "nlp = winkNLP( model );",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 202,
+            "value": "its = nlp.its;",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 205,
+            "value": "patterns = [\n  {\n    name: 'nounPhrase',\n    patterns: [ '[PROPN] [|PROPN] [|PROPN] [|PROPN]' ]\n  },\n  {\n    name: 'nounPhrase',\n    patterns: [ '[PROPN] [ADJ|PROPN] [|PROPN] [|PROPN]' ]\n  },\n    {\n    name: 'nounPhrase',\n    patterns: [ '[PROPN|ADJ] [PROPN]' ]\n  },\n  {\n    name: 'nounPhrase',\n    patterns: [ '[PROPN] [CARDINAL]' ]\n  },\n  {\n    name: 'simpleADJ',\n    patterns: [ '[ADJ]' ]\n  }\n];",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 213,
+            "value": "patternCount = nlp.learnCustomEntities( patterns, { matchValue: false, useEntity: true, usePOS: true } );",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 541,
+            "value": "findBestMatch= function ( ri, e ) {\n  let index = null;\n  if ( ri.query.searchinfo.totalhits === 0 ) return index;\n  if ( e.out( its.type ) === 'simpleADJ' && !e.out( its.value ).match( /^[A-Z]/ ) ) return index;\n  // Extract normalized text of custom entity and split on spaces and rejoin on vertical bar to form regex.\n  const rgx = RegExp( e.out(its.normal).split( /\\s+/ ).join( '|' ), 'i' );\n  for ( let k = 0; k < ri.query.search.length; k += 1 ) {\n    const riqsk = ri.query.search[ k ];\n    if ( riqsk.title.match(rgx) || riqsk.snippet.match(rgx) )\n        return { pageid: riqsk.pageid, title: riqsk.title }\n  }\n  return null;\n}",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 3,
+            "value": "searchAllTerms = async function ( terms ) {\n  const allResults = [];\n  for ( var i = 0; i < terms.length; i += 1 ) {\n    Promises.delay(30); // Be nice to Wikipedia\n    const r = await search( terms[ i ] );\n    allResults.push( r );\n  }\n  return allResults;\n}",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 46,
+            "value": "search = async function ( term ) {\n  const url = `https://en.wikipedia.org/w/api.php?format=json&origin=*&action=query&list=search&srsearch=${term}`\n  const response = await fetch(url) // d3.json\n  if (!response.ok) {\n    throw response.statusText;\n  }\n  \n  return response.json();\n}",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 327,
+            "value": "<style>\ndiv.container {\n  width: 720px;\n}\na.demo:hover {\n  text-decoration: none;\n}\n</style>",
+            "pinned": false,
+            "mode": "html",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 532,
+            "value": "---\n### About\n[**WinkNLP**](https://winkjs.org/) is a **developer friendly** JavaScript library for Natural Language Processing (NLP). Designed specifically to make development of NLP solutions **easier** and **faster**, winkNLP is optimized for the right balance of performance and accuracy. The package can handle large amount of raw text at speeds **over 525,000 tokens/second** for the entire NLP pipeline. And with a **test coverage of ~100%**, [wink-nlp](https://winkjs.org/) is a tool for building production grade systems with confidence.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        }
+    ],
+    "resolutions": [],
+    "schedule": null,
+    "last_view_time": null
+}

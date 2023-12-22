@@ -1,0 +1,298 @@
+{
+    "type": "notebook",
+    "id": "1320d0e478d54234",
+    "slug": "wikification-part-ii-how-to-add-an-image-grid",
+    "trashed": false,
+    "description": "",
+    "likes": 10,
+    "publish_level": "public",
+    "forks": 0,
+    "fork_of": {
+        "id": "d52a12cdbcd4f82d",
+        "slug": "how-to-build-a-naive-wikification-tool",
+        "title": "How to build a naive wikification tool?",
+        "owner": {
+            "id": "c6b145bf0197f1e4",
+            "github_login": null,
+            "avatar_url": "https://avatars.observableusercontent.com/avatar/bf53408604fdcc88d0d3dec6ca4b4b6583ed36cd57fa9107cfea284a28d0fd52",
+            "login": "winkjs",
+            "name": "WinkJS",
+            "bio": "Developer friendly Natural Language Processing ✨",
+            "home_url": "https://github.com/winkjs/wink-nlp",
+            "type": "individual",
+            "tier": "pro",
+            "following_count": 0,
+            "followers_count": 21,
+            "following": false
+        },
+        "version": 634
+    },
+    "has_importers": false,
+    "update_time": "2022-01-24T15:30:12.169Z",
+    "first_public_version": null,
+    "paused_version": null,
+    "publish_time": "2022-01-24T15:30:12.169Z",
+    "publish_version": 788,
+    "latest_version": 788,
+    "thumbnail": "c644ec242ec7110de6687fd611955e7c63f655239e94c53d10700a0ac840c386",
+    "default_thumbnail": "c644ec242ec7110de6687fd611955e7c63f655239e94c53d10700a0ac840c386",
+    "roles": [],
+    "sharing": null,
+    "owner": {
+        "id": "c6b145bf0197f1e4",
+        "github_login": null,
+        "avatar_url": "https://avatars.observableusercontent.com/avatar/bf53408604fdcc88d0d3dec6ca4b4b6583ed36cd57fa9107cfea284a28d0fd52",
+        "login": "winkjs",
+        "name": "WinkJS",
+        "bio": "Developer friendly Natural Language Processing ✨",
+        "home_url": "https://github.com/winkjs/wink-nlp",
+        "type": "individual",
+        "tier": "pro",
+        "following_count": 0,
+        "followers_count": 21,
+        "following": false
+    },
+    "creator": {
+        "id": "c6b145bf0197f1e4",
+        "github_login": null,
+        "avatar_url": "https://avatars.observableusercontent.com/avatar/bf53408604fdcc88d0d3dec6ca4b4b6583ed36cd57fa9107cfea284a28d0fd52",
+        "login": "winkjs",
+        "name": "WinkJS",
+        "bio": "Developer friendly Natural Language Processing ✨",
+        "home_url": "https://github.com/winkjs/wink-nlp",
+        "tier": "pro",
+        "following_count": 0,
+        "followers_count": 21,
+        "following": false
+    },
+    "authors": [
+        {
+            "id": "c6b145bf0197f1e4",
+            "avatar_url": "https://avatars.observableusercontent.com/avatar/bf53408604fdcc88d0d3dec6ca4b4b6583ed36cd57fa9107cfea284a28d0fd52",
+            "name": "WinkJS",
+            "login": "winkjs",
+            "bio": "Developer friendly Natural Language Processing ✨",
+            "home_url": "https://github.com/winkjs/wink-nlp",
+            "github_login": null,
+            "tier": "pro",
+            "approved": true,
+            "description": "",
+            "following_count": 0,
+            "followers_count": 21,
+            "following": false
+        }
+    ],
+    "collections": [
+        {
+            "id": "b1cd242ccf4e30b3",
+            "type": "public",
+            "slug": "winknlp-recipes",
+            "title": "WinkNLP Recipes",
+            "description": "How to perform common NLP tasks using winkNLP.",
+            "update_time": "2021-06-24T10:09:14.672Z",
+            "pinned": false,
+            "ordered": true,
+            "custom_thumbnail": null,
+            "default_thumbnail": "79c2a4c8d9f5bb82f9e378cf5b75471d3d63eabd18c6a046efdc786b9daa0aa7",
+            "thumbnail": "79c2a4c8d9f5bb82f9e378cf5b75471d3d63eabd18c6a046efdc786b9daa0aa7",
+            "listing_count": 12,
+            "parent_collection_count": 0,
+            "owner": {
+                "id": "c6b145bf0197f1e4",
+                "github_login": null,
+                "avatar_url": "https://avatars.observableusercontent.com/avatar/bf53408604fdcc88d0d3dec6ca4b4b6583ed36cd57fa9107cfea284a28d0fd52",
+                "login": "winkjs",
+                "name": "WinkJS",
+                "bio": "Developer friendly Natural Language Processing ✨",
+                "home_url": "https://github.com/winkjs/wink-nlp",
+                "type": "individual",
+                "tier": "pro",
+                "following_count": 0,
+                "followers_count": 21,
+                "following": false
+            }
+        }
+    ],
+    "files": [],
+    "comments": [],
+    "commenting_lock": null,
+    "suggestion_from": null,
+    "suggestions_to": [],
+    "version": 788,
+    "title": "Wikification Part II: How to add an image grid?",
+    "license": null,
+    "copyright": "",
+    "nodes": [
+        {
+            "id": 0,
+            "value": "# Wikification Part II: How to add an image grid?",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 460,
+            "value": "The [Part I](https://observablehq.com/@winkjs/how-to-build-a-naive-wikification-tool) of this post described a naive entity linking approach using [WinkNLP’s](https://github.com/winkjs/wink-nlp) [custom entities](https://winkjs.org/wink-nlp/custom-entities.html) and Wikipedia's [search API](https://www.mediawiki.org/wiki/API:Search). In addition to highlighting the concepts and linking to the relevant Wikipedia pages, the Part II also fetches the images from the Wikipedia pages and display them neatly below the Wikified text.\n\nLike the [Part I](https://observablehq.com/@winkjs/how-to-build-a-naive-wikification-tool), the searches are online with a “delay” injected after each search to respect rate limits. Each image fetch adds a bit extra time to the overall processing. Thus the **code may take several seconds to complete** the wikification process. Total time taken will depend on the number of searches required i.e. number of potential entities detected and the number of images to be fetched.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 505,
+            "value": "### Example Text",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 511,
+            "value": "text = `Apollo 11 was the spaceflight that first landed humans on the Moon. \nCommander Neil Armstrong and lunar module pilot Buzz Aldrin formed the \nAmerican crew that landed the Apollo Lunar Module Eagle. The Lunar Module \nor LM-5 Eagle was manufactured by Grumman Corporation, which later merged\nwith Northrop Corporation in 1995 and became Northrop Grumman Corporation.`",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 517,
+            "value": "### Wikified Text",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 228,
+            "value": "{\n  const doc = nlp.readDoc( text );\n  const potentialEntities = doc.customEntities().out();\n  const results = (await searchAllTerms( potentialEntities )); // return results;\n  let images = '';\n  \n  for ( let i = 0; i < potentialEntities.length; i += 1 ) {\n    const e = doc.customEntities().itemAt( i );\n    const match = findBestMatch( results[ i ], e );\n     if ( match !== null ) { \n      e.markup(`<a href=\"https://en.wikipedia.org/wiki?title=${match.title}\" title=\"${match.title}\" class=\"demo\"><b>`, '</b></a>');\n      const image = (await getImage( match.title )).query.pages[match.pageid].thumbnail;\n      images += ( image ) ? `<figure><img src=\"${image.source}\" title=\"${match.title}\"><figcaption>${match.title}</figcaption></figure>`: '';\n  \n    }\n  }\n  return html `<div class=\"container\">${doc.out(its.markedUpText)}</div><br/><div class=\"imageGrid\">${images}</div>`;\n}",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 601,
+            "value": "This is a very simple implementation in ~30 source code lines. A full scale implementation will need to use advance techniques such as co-reference resolution, disambiguation and ranking the search results.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 468,
+            "value": "---",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 189,
+            "value": "### Setup",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 194,
+            "value": "winkNLP = (await import('https://cdn.skypack.dev/wink-nlp')).default;",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 195,
+            "value": "model = (await import('https://cdn.skypack.dev/wink-eng-lite-web-model')).default;",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 199,
+            "value": "nlp = winkNLP( model );",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 202,
+            "value": "its = nlp.its;",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 205,
+            "value": "patterns = [\n  {\n    name: 'nounPhrase',\n    patterns: [ '[PROPN] [|PROPN] [|PROPN] [|PROPN]' ]\n  },\n  {\n    name: 'nounPhrase',\n    patterns: [ '[PROPN] [ADJ|PROPN] [|PROPN] [|PROPN]' ]\n  },\n    {\n    name: 'nounPhrase',\n    patterns: [ '[PROPN|ADJ] [PROPN]' ]\n  },\n  {\n    name: 'nounPhrase',\n    patterns: [ '[PROPN] [CARDINAL]' ]\n  },\n  {\n    name: 'simpleADJ',\n    patterns: [ '[ADJ]' ]\n  }\n];",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 213,
+            "value": "patternCount = nlp.learnCustomEntities( patterns, { matchValue: false, useEntity: true, usePOS: true } );",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 541,
+            "value": "findBestMatch= function ( ri, e ) {\n  let index = null;\n  if ( ri.query.searchinfo.totalhits === 0 ) return index;\n  if ( e.out( its.type ) === 'simpleADJ' && !e.out( its.value ).match( /^[A-Z]/ ) ) return index;\n  // Extract normalized text of custom entity and split on spaces and rejoin on vertical bar to form regex.\n  const rgx = RegExp( e.out(its.normal).split( /\\s+/ ).join( '|' ), 'i' );\n  for ( let k = 0; k < ri.query.search.length; k += 1 ) {\n    const riqsk = ri.query.search[ k ];\n    if ( riqsk.title.match(rgx) || riqsk.snippet.match(rgx) )\n        return { pageid: riqsk.pageid, title: riqsk.title }\n  }\n  return null;\n}",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 641,
+            "value": "getImage = async function ( term ) {\n  const url = `https://en.wikipedia.org/w/api.php?format=json&origin=*&action=query&prop=pageimages&pithumbsize=200&titles=${term}`\n  const response = await fetch(url) // d3.json\n  if (!response.ok) {\n    throw response.statusText;\n  }\n  \n  return response.json();\n}",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 3,
+            "value": "searchAllTerms = async function ( terms ) {\n  const allResults = [];\n  for ( var i = 0; i < terms.length; i += 1 ) {\n    Promises.delay(30); // Be nice to Wikipedia\n    const r = await search( terms[ i ] );\n    allResults.push( r );\n  }\n  return allResults;\n}",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 46,
+            "value": "search = async function ( term ) {\n  const url = `https://en.wikipedia.org/w/api.php?format=json&origin=*&action=query&list=search&srsearch=${term}`\n  const response = await fetch(url) // d3.json\n  if (!response.ok) {\n    throw response.statusText;\n  }\n  \n  return response.json();\n}",
+            "pinned": false,
+            "mode": "js",
+            "data": null,
+            "name": null
+        },
+        {
+            "id": 327,
+            "value": "<style>\n.imageGrid {\n  display: flex;\n  max-width: 750px;\n  margin: 0;\n  padding: 0;\n  flex-wrap: wrap;\n}\n.imageGrid figure {\n  margin: 0 5px;\n  padding: 0;\n  width: 200px;\n}\n.imageGrid img {\n  margin: 0;\n  padding: 0;\n}\ndiv.container {\n  width: 750px;\n}\na.demo:hover {\n  text-decoration: none;\n}\n</style>",
+            "pinned": false,
+            "mode": "html",
+            "data": null,
+            "name": ""
+        },
+        {
+            "id": 532,
+            "value": "---\n### About\n[**WinkNLP**](https://winkjs.org/) is a **developer friendly** JavaScript library for Natural Language Processing (NLP). Designed specifically to make development of NLP solutions **easier** and **faster**, winkNLP is optimized for the right balance of performance and accuracy. The package can handle large amount of raw text at speeds **over 525,000 tokens/second** for the entire NLP pipeline. And with a **test coverage of ~100%**, [wink-nlp](https://winkjs.org/) is a tool for building production grade systems with confidence.",
+            "pinned": false,
+            "mode": "md",
+            "data": null,
+            "name": ""
+        }
+    ],
+    "resolutions": [],
+    "schedule": null,
+    "last_view_time": null
+}

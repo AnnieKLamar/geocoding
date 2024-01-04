@@ -47,9 +47,28 @@ Here is also a tool to make a custom RDF dump: https://wdumps.toolforge.org/#. C
 
 ### 1.4.24 ###
 bcr: 
-- checked out wdumps.toolforge.org. There is a recent dumps section, one of which is for "all films": https://wdumps.toolforge.org/dump/3727. I downloaded it and it creates a file ~12,000,000
-lines long and 1.5gb, so may actually grab the info we want if we can create our own query correctly. If this provides a comprehensive dataset, the question then becomes "how do we distribute it to 
-users when they run the script?" The tool seems to be an intermediary that generates a query that we could probably use with a CLI tool instead. Another option would be hosting the end file somewhere
-and serving it in the script. Haven't parsed the syntax of the query yet, but will work on that.
-- https://hay.toolforge.org/propbrowse/ seems to work well in concert with above. P276 looks like a top-level "location" category, though there are several sub-levels I included in a query to investigate.
-There are several pending requests on the site, so live queries are prob not a good idea if we use this tool, but dump will eventually be found here for evaluation: https://wdumps.toolforge.org/dump/3735
+
+    - checked out wdumps.toolforge.org. There is a recent dumps section, one of which is for "all films": https://wdumps.toolforge.org/dump/3727. I downloaded it and it creates a file ~12,000,000 lines long and 1.5gb, so may actually grab the info we want if we can create our own query correctly. If this provides a comprehensive dataset, the question then becomes "how do we distribute it to users when they run the script?" The tool seems to be an intermediary that generates a query that we could probably use with a CLI tool instead. Another option would be hosting the end file somewhere and serving it in the script. Haven't parsed the syntax of the query yet, but will work on that.
+    - https://hay.toolforge.org/propbrowse/ seems to work well in concert with above. P276 looks like a top-level "location" category, though there are several sub-levels I included in a query to investigate. There are several pending requests on the site, so live queries are prob not a good idea if we use this tool, but dump will eventually be found here for evaluation: https://wdumps.toolforge.org/dump/3735
+    - data should be parseable, just need to have it search for P-code within a record and return the QID (unique ID) within that record. Records have predictable structure that can be parsed:
+
+This is somewhere near the start of a record for "12 Angry Men":
+
+<http://www.wikidata.org/prop/direct/P5786> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.wikidata.org/prop/novalue/P480> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.wikidata.org/prop/novalue/P480> <http://www.w3.org/2002/07/owl#complementOf> _:node1himiok17x130 .
+_:node1himiok17x130 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+_:node1himiok17x130 <http://www.w3.org/2002/07/owl#onProperty> <http://www.wikidata.org/entity/P480> .
+_:node1himiok17x130 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w3.org/2001/XMLSchema#string> .
+<http://www.wikidata.org/prop/direct/P480> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<http://www.wikidata.org/entity/Q2345> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://wikiba.se/ontology#Item> .
+<http://www.wikidata.org/entity/Q2345> <http://www.w3.org/2000/01/rdf-schema#label> "12 Angry Men"@en .
+<http://www.wikidata.org/entity/Q2345> <http://schema.org/description> "1957 drama film by Sidney Lumet"@en .
+<http://www.wikidata.org/entity/Q2345> <http://www.w3.org/2004/02/skos/core#altLabel> "Twelve Angry Men"@en .
+<http://www.wikidata.org/entity/Q2345> <http://www.wikidata.org/prop/direct/P269> "17807599X" .
+<http://www.wikidata.org/entity/Q2345> <http://www.wikidata.org/prop/direct/P268> "16473943m" .
+<http://www.wikidata.org/entity/Q2345> <http://www.wikidata.org/prop/direct/P3808> "12-Angry-Men" .
+<http://www.wikidata.org/entity/Q2345> <http://www.wikidata.org/prop/direct/P144> <http://www.wikidata.org/entity/Q13709586> .
+
+
+I'm not sure exactly where it starts and ends, but the QID at the start of each entry is for the main entity (Q2345), and all the P codes are things linked in the entry. Determining the canonical P-code is probably tricker than this parsing. I'd start with either "the first one" or "all of them" for each entry.

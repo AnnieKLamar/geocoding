@@ -44,3 +44,9 @@ From <https://dumps.wikimedia.org/wikidatawiki/latest/wikidatawiki-latest-geo_ta
 We are working on looking for matching IDs in tables from this webpage: https://dumps.wikimedia.org/wikidatawiki/latest/
 
 Here is also a tool to make a custom RDF dump: https://wdumps.toolforge.org/#. Can we download only wikidata that has coordinate information?
+
+### 1.4.24 ###
+bcr: checked out wdumps.toolforge.org. There is a recent dumps section, one of which is for "all films": https://wdumps.toolforge.org/dump/3727. I downloaded it and it creates a file ~12,000,000
+lines long and 1.5gb, so may actually grab the info we want if we can create our own query correctly. If this provides a comprehensive dataset, the question then becomes "how do we distribute it to 
+users when they run the script?" The tool seems to be an intermediary that generates a query that we could probably use with a CLI tool instead. Another option would be hosting the end file somewhere
+and serving it in the script. Haven't parsed the syntax of the query yet, but will work on that.

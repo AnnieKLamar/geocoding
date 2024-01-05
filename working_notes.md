@@ -79,3 +79,5 @@ Was looking for an RDF parser to see if there was an easier way than regex to pa
 and found this tool: https://github.com/RDFLib/rdflib. Not sure how to get it working on the wikidata http, but the linked site there
 (https://dbpedia.org/page/) contains good info on dbpedia's ontology and another potential route. FWIW, I think Populated Places
 are what we're looking for in their data. Probably also want natural places.
+
+I think the sparqlwrapper code I sent can probably be used for data acquisition in any of these routes.

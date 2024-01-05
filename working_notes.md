@@ -72,3 +72,10 @@ _:node1himiok17x130 <http://www.w3.org/2002/07/owl#someValuesFrom> <http://www.w
 
 
 I'm not sure exactly where it starts and ends, but the QID at the start of each entry is for the main entity (Q2345), and all the P codes are things linked in the entry. Determining the canonical P-code is probably tricker than this parsing. I'd start with either "the first one" or "all of them" for each entry.
+
+### 1.5.24 ###
+
+Was looking for an RDF parser to see if there was an easier way than regex to parse this (I think regex will still be pretty easy)
+and found this tool: https://github.com/RDFLib/rdflib. Not sure how to get it working on the wikidata http, but the linked site there
+(https://dbpedia.org/page/) contains good info on dbpedia's ontology and another potential route. FWIW, I think Populated Places
+are what we're looking for in their data. Probably also want natural places.

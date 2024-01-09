@@ -81,3 +81,7 @@ and found this tool: https://github.com/RDFLib/rdflib. Not sure how to get it wo
 are what we're looking for in their data. Probably also want natural places.
 
 I think the sparqlwrapper code I sent can probably be used for data acquisition in any of these routes.
+
+### 1.9.24 ###
+Data dump at https://wdumps.toolforge.org/dump/3735 is still processing; it should be done by Thursday.
+

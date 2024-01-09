@@ -34,4 +34,5 @@ CLASSPATH="$CLASSPATH:`realpath $file`"; done
 echo -e "\nWikifying text... \n"
 
 ls -d -1 /path/to/txt/corpus/*.* > filelist.lst
-java -cp "*" -Xmx16g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,pos,lemma,ner,entitylink -filelist ./filelist.lst
+mkdir /scratch/users/$USER/output/coreEntities
+java -cp "*" -Xmx16g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,pos,lemma,ner,entitylink -filelist "filelist.lst" -outputDirectory "/scratch/users/$USER/output/coreEntities/"

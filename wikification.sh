@@ -32,4 +32,6 @@ echo -e "\nEstablishing classpath... \n"
 for file in `find . -name "*.jar"`; do export
 CLASSPATH="$CLASSPATH:`realpath $file`"; done
 echo -e "\nWikifying text... \n"
-java -cp "*" -mx16g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,pos,lemma,ner,entitylink -file input.txtls
+
+ls -d -1 /path/to/txt/corpus/*.* > filelist.lst
+java -cp "*" -Xmx16g edu.stanford.nlp.pipeline.StanfordCoreNLP -annotators tokenize,pos,lemma,ner,entitylink -filelist ./filelist.lst

@@ -88,3 +88,5 @@ Data dump at https://wdumps.toolforge.org/dump/3735 is still processing; it shou
 In CORENLP output, WikiIDs are listed as words with underscores, e.g. "Catacombs_of_Paris" "Mount_Etna"; could connect to RDF results by replacing underscores with spaces.
 
 Currently using https://github.com/dphiffer/wikidata-geo-index/tree/master to try. This downloads wikidata's latest dump and indexes only the items with latitude and longitude coordinates, then returns a SQLite database. Since the SQLite database has the name and ID of the locations, we should be able to query the downloaded db for the NER-ed location items. 
+
+Use Brad's sentiment analysis script as a model for parallelizing this project. We probably want to parallelize at the file level.

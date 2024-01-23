@@ -10,6 +10,6 @@
 
 ml purge
 ml java
-chmod +x wikification.sh
-file=$(ls /scratch/users/$USER/testCorpus/*.txt | sed -n ${SLURM_ARRAY_TASK_ID}p)
-./wikification.sh -in $file
+chmod +x geocode.sh
+corpus_directory=$(ls /scratch/users/$USER/testCorpus/*.txt | sed -n ${SLURM_ARRAY_TASK_ID}p)
+./geocode.sh -in corpus_directory

@@ -90,3 +90,24 @@ In CORENLP output, WikiIDs are listed as words with underscores, e.g. "Catacombs
 Currently using https://github.com/dphiffer/wikidata-geo-index/tree/master to try. This downloads wikidata's latest dump and indexes only the items with latitude and longitude coordinates, then returns a SQLite database. Since the SQLite database has the name and ID of the locations, we should be able to query the downloaded db for the NER-ed location items. 
 
 Use Brad's sentiment analysis script as a model for parallelizing this project. We probably want to parallelize at the file level.
+
+### 1.23.24 ###
+Combined wikification.sh and extractEntities.sh into a single script called 'geocode.sh'.
+Changed geocode.sh to accept a directory as a parameter instead of a file. This variable is now stored in $corpus_directory.
+Renamed wikification.sbatch to geocode.sbatch
+Found a data dump with WikiIDs and geogrpahic coordinates.
+Script to download and unzip data dump: 
+`wget https://iw.toolforge.org/wp-world/dumps/new_red0.gz`
+`gunzip new_red0.gz`
+
+This is a sed command that should remove all '\N' characters, but it's only working on part of the file?
+sed ':a;N;$!ba;s/\\N//g' new_red0 > formatted_wikidump
+
+This replaces all tabs with single spaces.
+sed 's/\t/ /g' remove_new_lines > no-tab-file
+
+This replaces all multiple spaces with single spaces.
+tr -s ' ' < no-tab-file > single_space_file
+
+After these three commands, the top part of the file is ready to be parsed, but the bottom still has all the formatting problems. I've never seen a command only work on part of a file?
+

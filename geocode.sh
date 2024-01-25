@@ -42,3 +42,5 @@ wget https://iw.toolforge.org/wp-world/dumps/new_red0.gz
 gunzip new_red0.gz
 # removes all \N from file
 sed ':a;N;$!ba;s/\\N//g' new_red0 > formatted_wikidump
+# brad's alternative (worked for me)
+# sed 's/\\N/ /g' new_red0 | tr -s '[:blank:]' ' ' > clean.txt

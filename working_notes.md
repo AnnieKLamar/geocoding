@@ -111,3 +111,14 @@ tr -s ' ' < no-tab-file > single_space_file
 
 After these three commands, the top part of the file is ready to be parsed, but the bottom still has all the formatting problems. I've never seen a command only work on part of a file?
 
+### 1.24.24###
+
+bcr: ```bash
+sed 's/\\N/ /g' new_red0 | tr -s '[:blank:]' ' ' > clean.txt
+```
+ should work. If it still only processes half, it may be an OOM issue that doesn't fail, but doesn't complete execution.
+I use this dev session for testing
+```bash
+sh_dev -t 03:00:00 -c 4 -m 16GB -p normal
+```
+so ask for these resources for testing, and ensure similar resources are requested in the sbatch.

@@ -111,7 +111,7 @@ tr -s ' ' < no-tab-file > single_space_file
 
 After these three commands, the top part of the file is ready to be parsed, but the bottom still has all the formatting problems. I've never seen a command only work on part of a file?
 
-### 1.24.24###
+### 1.24.24 ###
 
 bcr: 
 ```bash

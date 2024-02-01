@@ -9,6 +9,8 @@ done
 # load modules
 ml purge
 ml java
+ml python3
+
 # remove current installation of CoreNLP
 echo -e "\nRemoving current installation of Stanford CoreNLP... \n"
 rm -r $GROUP_HOME/$USER/stanford-corenlp*
@@ -41,6 +43,4 @@ grep "LOCATION Wikipedia" /scratch/users/$USER/outputs/coreEntities/*.out | sed 
 wget https://iw.toolforge.org/wp-world/dumps/new_red0.gz
 gunzip new_red0.gz
 # removes all \N from file
-sed ':a;N;$!ba;s/\\N//g' new_red0 > formatted_wikidump
-# brad's alternative (worked for me)
-# sed 's/\\N/ /g' new_red0 | tr -s '[:blank:]' ' ' > clean.txt
+sed 's/\\N/ /g' new_red0 | tr -s '[:blank:]' ' ' > clean.txt

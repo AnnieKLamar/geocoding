@@ -123,3 +123,13 @@ I use this dev session for testing:
 sh_dev -t 03:00:00 -c 4 -m 16GB -p normal
 ```
 so ask for these resources for testing, and ensure similar resources are requested in the sbatch.
+
+### 2.8.24 ###
+
+Some additional links with tools, potential solutions. Haven't explored fully, but some seem promising:
+
+https://www.wikiwand.com/en/WP:GEO#Tools_and_applications_based_on_coordinates_from_Wikipedia
+https://stackoverflow.com/questions/54915667/how-can-i-create-a-sparql-query-on-wikidata-that-gets-all-books-that-have-a-proj?rq=2
+https://stackoverflow.com/questions/71380188/retrieve-latitude-and-longitude-of-a-sample-of-coordinates-from-wikidata-using-s?rq=2
+https://dumps.wikimedia.org/enwiki/
+
